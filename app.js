@@ -60,6 +60,5 @@ module.exports = app;
 
 var mongoose = require('mongoose');
 
+mongoose.connect('mongodb://192.168.160.98/people-connect');
 require('./models/UserDetails');
-
-mongoose.connect('mongodb://localhost/people-connect');

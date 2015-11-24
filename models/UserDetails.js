@@ -6,4 +6,4 @@ var UserDetailsSchema = new mongoose.Schema({
   password: String
 });
 
-mongoose.model('UserDetails', UserDetailsSchema);
+mongoose.model('User', UserDetailsSchema);
